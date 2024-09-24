@@ -1,0 +1,33 @@
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+#main {
+    display: flex;
+    transition: margin-left .5s;
+    padding: 16px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    gap: 30px;
+}
+article{
+
+    font-size: 20px;
+}
+.title{
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    transition: 0.3s;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+a:hover{
+    color: white;
+}
