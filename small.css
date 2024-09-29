@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    article{
+        font-size: 12px;
+    }
+    .title{
+        text-align: center;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #818181;
+        transition: 0.3s;
+    }
+
+    .image-container {
+        position: relative;
+        display: inline-block; /* Adjust as needed */
+    }
+    
+    .image-container img {
+        display: block;
+        width: 100%; /* Adjust as needed */
+    }
+    
+    .text-overlay {
+        position: absolute;
+        bottom: 10px; /* Adjust as needed */
+        left: 30%; /* Adjust as needed */
+        color: rgb(0, 0, 0); /* Adjust text color as needed */
+        background-color: rgb(255, 255, 255); /* Optional: Add background for better readability */
+        padding: 20px; /* Optional: Add padding for better appearance */
+    }
+    #art-con{
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+    }
+    #art-con img{
+
+    }
+    .sub{
+        font-size: 20px;
+    }
+    .art-ttl{
+        font-size: 20px;
+    }
+    article{
+        width: 50%;
+        font-size: 15px
+    
+    }
+    .title{
+        text-align: center;
+        font-size: 20px;
+    }
+    nav{
+        background-color: rgba(30,45,59,255);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 70px;
+    }
+    
+  }

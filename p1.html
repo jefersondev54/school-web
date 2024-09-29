@@ -5,20 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sidebar Example</title>
     <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="links.css">
+    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
 <body>
     <nav>
-        <a href="home.html">Home</a>
-        <a href="p1.html">Periodo 1</a>
-        <a href="#">Periodo 2</a>
-        <a href="#">Periodo 3</a>
+        <a href="home.html" id="home">Home</a>
+        <a href="p1.html" id="p1">Periodo 1</a>
+        <a href="#" id="p2">Periodo 2</a>
+        <a href="#" id="p3">Periodo 3</a>
     </nav>
-        <h1 class="title">Periodo 1</h1>
+    <!--side bar-->
+    <div id="mySidebar" class="sidebar">
+        <a href="#Vectores" id="tem1">Tema 1</a>
+
+        <a href="#bla" id="tem2">Tema 2</a>
+        <a href="#Vectores" id="tem3">Tema 3</a>
+    </div>
+    </div>
+    <div id="main">
+        <button class="openbtn" id="openbtn" onclick="openNav()">☰</button>  
+    </div>
+        <!--grupos y videos-->
         <div>
-            <h2>grupo 1</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/zv-Y3fvFmd0?si=ctxKUpSDeGfaMdzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2 id="Vectores" class="sub">Tema: Vectores e IA</h2>
+            <iframe width="360" height="215" src="https://www.youtube.com/embed/zv-Y3fvFmd0?si=ctxKUpSDeGfaMdzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>grupo 1</p>
         </div>
-    
     <script src="web.js"></script>
 </body>
 </html>
