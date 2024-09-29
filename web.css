@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .image-container {
     position: relative;
     display: inline-block; /* Adjust as needed */
