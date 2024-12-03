@@ -1,50 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
 body{
-    margin: 0px;
+    background-color: rgba(249,250,251,255);
 }
-.image-container {
-    position: relative;
-    display: inline-block; /* Adjust as needed */
+nav{
+    background-color: white;
+    height: 7.5vh;
+    border-bottom: 1px solid rgba(229,231,235,255);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
 }
 
-.image-container img {
-    display: block;
-    width: 100%; /* Adjust as needed */
+#left {
+    margin-left: 120px;
+    padding: 10px;
+    display: flex;
+}
+#right {
+    padding: 10px;
+    margin-right: 120px;
+    display: flex;
+    gap: 25px;
+}
+img{
+    height: 5vh;
+}
+#header{
+    font-size: 4vh;
 
 }
-
-.text-overlay {
-    position: absolute;
-    bottom: 10px; /* Adjust as needed */
-    left: 40%; /* Adjust as needed */
-    color: rgb(0, 0, 0); /* Adjust text color as needed */
-    background-color: rgb(255, 255, 255); /* Optional: Add background for better readability */
-    padding: 90px; /* Optional: Add padding for better appearance */
+#art2-ttl{
+    border-bottom: 1px solid rgba(229,231,235,255);
+    padding-bottom: 5px;
+    width: 800px;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px;
 }
 #art-con{
+    margin-top: 10px;
     display: flex;
-    justify-content: end;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(229,231,235,255);
+    width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#art-con1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 700px;
+    gap: 15px;
+    padding: 20px;
+    font-size: 16px;
+
+}
+#container{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 40px;
+
+}
+button{
+    border: 1px solid rgba(229,231,235,255);
+    padding: 13px;
+    border-radius: 6px;
+    font-size: 20px;
+    background-color: white;
+}
+@media only screen and (max-width: 480px) {
+    
+nav{
+    background-color: rgb(255, 255, 255);
+    height: 5.5vh;
+    border-bottom: 1px solid rgba(229,231,235,255);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+#left {
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+}
+#right {
+    padding: 10px;
+    margin-right: 10px;
+    display: flex;
     gap: 10px;
 }
 
-.sub{
-    font-size: 25px;
-}
-.art-ttl{
-    font-size: 40px;
-}
-article{
-    width: 50%;
-    font-size: 25px
+#header{
+    font-size: 2vh;
 
 }
-.title{
-    text-align: center;
-    font-size: 60px;
+img{
+    height: 3vh;
 }
-nav{
-    background-color: rgba(30,45,59,255);
+.art-ttl{
+    font-size: 24px;
+}
+#art2-ttl{
+    border-bottom: 1px solid rgba(229,231,235,255);
+    padding-bottom: 5px;
+    width: 300px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 70px;
+    justify-content:space-between;
+    padding: 10px;
 }
+#art-con{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(229,231,235,255);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#art-con1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    gap: 15px;
+    padding: 20px;
+    font-size: 16px;
+
+}
+#container{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    gap: 20px;
+
+}
+button{
+    border: 1px solid rgba(229,231,235,255);
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: white;
+}
+  }
